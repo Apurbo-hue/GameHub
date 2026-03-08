@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     {
         path: "/", element: <MainLayout></MainLayout>,
         children: [
-            { path: "/", element: <Home></Home> },
+            { path: "/", loader:()=>fetch('/public/games.json'), element: <Home></Home> },
             { path: "register", element: <Register></Register> },
             { path: "login", element: <Login></Login> },
             { path: "allGames",

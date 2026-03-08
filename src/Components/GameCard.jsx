@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router';
 const GameCard = ({ game }) => {
     // console.log(game)
     const location = useLocation();
-    console.log(location)
+    // console.log(location)
     const { id,title, coverPhoto, category, downloadLink, description, ratings, developer } = game;
     return (
 
