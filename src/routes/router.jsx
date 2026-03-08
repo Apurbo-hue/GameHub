@@ -7,6 +7,7 @@ import Login from "./../Pages/Login"
 import AllGames from "./../Pages/AllGames"
 import PrivateRouter from "../Provider/PrivateRouter";
 import GameDetails from "../Pages/GameDetails";
+import Error from "../Pages/Error";
 
 const router = createBrowserRouter([
     {
@@ -25,7 +26,10 @@ const router = createBrowserRouter([
                 element:<PrivateRouter><GameDetails></GameDetails></PrivateRouter>
             }
             
-    ]
+        ]
+    },
+    {
+        path:"/*",element:<Error></Error>
     }
 
 ])

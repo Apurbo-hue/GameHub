@@ -19,17 +19,17 @@ const GameDetails = () => {
     // console.log(id, games, gameFound)
     return (
         <div className="min-h-screen bg-base-200">
-            {/* 1. HERO SECTION: Full-width background header */}
+      
             <div
                 className="hero h-[400px] relative overflow-hidden"
                 style={{ backgroundImage: `url(${coverPhoto})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
                 <div className="hero-overlay bg-opacity-80 bg-base-300 backdrop-blur-sm"></div>
                 <div className="hero-content text-center lg:text-left flex-col lg:flex-row gap-10">
-                    {/* Main Visual Image */}
+                  
                     <img
                         src={coverPhoto}
-                        className="max-w-sm rounded-lg shadow-2xl border-4 border-base-100 hidden md:block"
+                        className="max-w-sm rounded-lg shadow-2xl border-4 border-base-100  md:block"
                         alt={title}
                     />
                     <div>
@@ -48,7 +48,7 @@ const GameDetails = () => {
                 </div>
             </div>
 
-            {/* 2. STATS SECTION: Quick info bar */}
+            {/* Quick info bar */}
             <div className="container mx-auto -mt-10 relative z-10 px-4">
                 <div className="stats shadow bg-base-100 w-full grid grid-cols-1 md:grid-cols-3">
                     <div className="stat place-items-center">
@@ -66,7 +66,7 @@ const GameDetails = () => {
                 </div>
             </div>
 
-            {/* 3. CONTENT SECTION: Description & Details */}
+        
             <div className="container mx-auto py-12 px-4">
                 <div className="">
 
