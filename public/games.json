@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "title": "PlayerUnknown's Battlegrounds (PUBG)",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578080/header.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG is a competitive battle royale game where players parachute onto a map, collect weapons, and fight to be the last survivor.",
+    "ratings": "4.6",
+    "developer": "Krafton"
+  },
+  {
+    "id": "2",
+    "title": "Fortnite",
+    "coverPhoto": "https://cdn2.unrealengine.com/fortnite-battle-royale-tile-1920x1080-630902888.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.fortnite.com/",
+    "description": "Fortnite blends building mechanics and battle royale gameplay where players compete in a colorful survival arena.",
+    "ratings": "4.7",
+    "developer": "Epic Games"
+  },
+  {
+    "id": "3",
+    "title": "Call of Duty: Warzone",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1962663/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/warzone",
+    "description": "Warzone is a large-scale free-to-play battle royale FPS featuring intense combat, vehicles, and tactical gameplay.",
+    "ratings": "4.5",
+    "developer": "Infinity Ward"
+  },
+  {
+    "id": "4",
+    "title": "Minecraft",
+    "coverPhoto": "https://www.minecraft.net/content/dam/games/minecraft/key-art/MC-Vanilla-Update-1.21-Key-Art-16x9.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft is a sandbox game where players build, explore, and survive in a block-based procedurally generated world.",
+    "ratings": "4.8",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "5",
+    "title": "Grand Theft Auto V",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
+    "category": "Open World",
+    "downloadLink": "https://www.rockstargames.com/gta-v",
+    "description": "GTA V offers a vast open world where players explore Los Santos while completing missions and activities.",
+    "ratings": "4.9",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": "6",
+    "title": "Apex Legends",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends is a squad-based battle royale game where unique heroes compete in fast-paced combat.",
+    "ratings": "4.6",
+    "developer": "Respawn Entertainment"
+  },
+  {
+    "id": "7",
+    "title": "Valorant",
+    "coverPhoto": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt72750e21338df3f9/5f1f7d264582f01f8d8393e9/valorant_banner.jpg",
+    "category": "FPS",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "Valorant is a tactical FPS where teams use strategy and unique character abilities to win rounds.",
+    "ratings": "4.7",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "8",
+    "title": "League of Legends",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2057390/header.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://www.leagueoflegends.com/",
+    "description": "League of Legends is a competitive MOBA game where teams battle strategically to destroy the enemy base.",
+    "ratings": "4.5",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "9",
+    "title": "Counter Strike 2",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_2/",
+    "description": "Counter Strike 2 is a competitive tactical shooter where precision and teamwork determine victory.",
+    "ratings": "4.6",
+    "developer": "Valve"
+  },
+  {
+    "id": "10",
+    "title": "Rocket League",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252950/header.jpg",
+    "category": "Sports",
+    "downloadLink": "https://www.rocketleague.com/",
+    "description": "Rocket League mixes soccer with rocket-powered cars in fast-paced competitive matches.",
+    "ratings": "4.5",
+    "developer": "Psyonix"
+  },
+  {
+    "id": "11",
+    "title": "The Witcher 3",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://www.thewitcher.com/",
+    "description": "The Witcher 3 is an award-winning RPG where players explore a massive fantasy world as Geralt of Rivia.",
+    "ratings": "4.9",
+    "developer": "CD Projekt Red"
+  },
+  {
+    "id": "12",
+    "title": "Cyberpunk 2077",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "category": "RPG",
+    "downloadLink": "https://www.cyberpunk.net/",
+    "description": "Cyberpunk 2077 is an open-world futuristic RPG set in the vibrant Night City.",
+    "ratings": "4.4",
+    "developer": "CD Projekt Red"
+  },
+  {
+    "id": "13",
+    "title": "Among Us",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
+    "category": "Party",
+    "downloadLink": "https://www.innersloth.com/games/among-us/",
+    "description": "Among Us is a social deduction game where players find impostors while completing tasks.",
+    "ratings": "4.3",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "14",
+    "title": "Hollow Knight",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+    "category": "Indie",
+    "downloadLink": "https://www.hollowknight.com/",
+    "description": "Hollow Knight is a beautifully crafted indie action-adventure game set in a mysterious underground kingdom.",
+    "ratings": "4.8",
+    "developer": "Team Cherry"
+  },
+  {
+    "id": "15",
+    "title": "Stardew Valley",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://www.stardewvalley.net/",
+    "description": "Stardew Valley is a relaxing farming simulation where players grow crops, raise animals, and build a community.",
+    "ratings": "4.7",
+    "developer": "ConcernedApe"
+  },
+  {
+    "id": "16",
+    "title": "Elden Ring",
+    "coverPhoto": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://en.bandainamcoent.eu/elden-ring",
+    "description": "Elden Ring is an open-world action RPG with challenging combat and deep exploration.",
+    "ratings": "4.9",
+    "developer": "FromSoftware"
+  }
+]
