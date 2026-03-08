@@ -73,13 +73,13 @@ const Navbar = () => {
             </div>
             {/* navbar end for the large screen */}
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal gap-3 items-center">
+                <ul className="menu menu-horizontal gap-6 items-center">
                     {largeScreenLinks}
                 </ul>
             </div>
 
             {/* user profile picture and the login for the small screen */}
-            <div className='navbar-end hidden max-sm:flex'>
+            <div className='navbar-end hidden max-lg:flex'>
                 {user ? (<>
                     <Link>  <img className='w-7 h-7 rounded-full border border-primary mx-4' src='https://img.icons8.com/?size=48&id=13042&format=png'></img></Link>
                     <Link onClick={handleLogOut} className="btn bg-red-500">Logout</Link></>) :

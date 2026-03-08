@@ -4,6 +4,9 @@ import { Children } from "react";
 import Home from "../Pages/Home";
 import Register from "./../Pages/Register"
 import Login from "./../Pages/Login"
+import AllGames from "./../Pages/AllGames"
+import PrivateRouter from "../Provider/PrivateRouter";
+import GameDetails from "../Pages/GameDetails";
 
 const router = createBrowserRouter([
     {
@@ -11,7 +14,16 @@ const router = createBrowserRouter([
         children: [
             { path: "/", element: <Home></Home> },
             { path: "register", element: <Register></Register> },
-            {path:"login",element:<Login></Login>}
+            { path: "login", element: <Login></Login> },
+            { path: "allGames",
+                loader:()=>fetch('/public/games.json')
+                , element: <AllGames></AllGames>
+            },
+            {
+                path: "allGames/:id",
+                loader: () => fetch('/public/games.json'),
+                element:<PrivateRouter><GameDetails></GameDetails></PrivateRouter>
+            }
             
     ]
     }

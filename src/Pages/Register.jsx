@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
+import { Link } from 'react-router';
+
 
 const Register = () => {
 
@@ -24,7 +26,7 @@ const Register = () => {
                }
             )
 
-        console.log(name, image, email, password)
+        // console.log(name, image, email, password)
     }
     return (
         <div className='flex justify-center items-center min-h-screen'>
@@ -33,6 +35,7 @@ const Register = () => {
                 <div className="card-body">
                     <form onSubmit={handleRegister}>
                         <fieldset className="fieldset">
+                            <h1 className='text-3xl text-center font-bold py-4'>Register Now!</h1>
                             {/* Name */}
                             <label className="label">Name</label>
                             <input type="text" name='name' className="input" placeholder="Name" />
@@ -51,6 +54,7 @@ const Register = () => {
 
                             <div><a className="link link-hover">Forgot password?</a></div>
                             <button type='submit' className="btn btn-primary mt-4">Register</button>
+                            <Link to="/login" className='text-center'>Already have an account? <span className='text-primary'>Login</span></Link>
                         </fieldset>
                     </form>
                 </div>
