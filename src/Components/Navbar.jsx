@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { AuthContext } from '../Provider/AuthProvider';
 
 const Navbar = () => {
@@ -18,8 +18,8 @@ const Navbar = () => {
     }
 
     const smallScreenLinks = <>
-        <Link to="/">Home</Link>
-        <Link to="/allGames">All Games</Link>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/allGames">All Games</NavLink>
 
         {user ? (
             <>
@@ -36,8 +36,8 @@ const Navbar = () => {
 
 
     const largeScreenLinks = <>
-        <Link to="/">Home</Link>
-        <Link to="/allGames">All Games</Link>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/allGames">All Games</NavLink>
         {user ?
             (<>
                 <Link to="/profile">  <img className='w-7 h-7 rounded-full border border-primary' src={user.photoURL}></img></Link>

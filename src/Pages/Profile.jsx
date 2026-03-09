@@ -8,7 +8,7 @@ const Profile = () => {
     document.title = "GameHub - My profile"
     return (
         <div className='flex justify-center items-center min-h-screen'>
-            <div className='grid place-items-center border border-6 p-6 rounded-2xl'>
+            <div className='grid place-items-center border-6 p-6 rounded-2xl'>
                 <img src={user.photoURL} alt="" />
                 <h1>
                     Name: {user.displayName}
@@ -20,7 +20,7 @@ const Profile = () => {
 
                 <Link to="/updateProfile">
 
-                    <button className='btn btn-primary'>Update Profile</button>
+                    <button className='btn btn-primary my-4'>Update Profile</button>
 
                 </Link>
 

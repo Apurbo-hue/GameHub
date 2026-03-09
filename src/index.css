@@ -3,8 +3,13 @@
 
 @plugin "daisyui/theme" {
   name: "light";
-  default: true;
+  default: true; 
   --color-primary: #6366f1;
   --color-secondary: teal;
   --color-accent:#22c55e;
+}
+
+a.active{
+   color: aqua;
+   font-weight: bold;
 }
