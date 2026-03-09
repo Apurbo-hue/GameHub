@@ -68,7 +68,9 @@ const Navbar = () => {
                         <li className=''> {smallScreenLinks}</li>
                     </ul>
                 </div>
+                <Link to="/">
                 <img className="btn btn-ghost text-xl" src={"https://img.icons8.com/?size=80&id=64114&format=png"} alt="" />
+                </Link>
 
             </div>
             {/* navbar end for the large screen */}
