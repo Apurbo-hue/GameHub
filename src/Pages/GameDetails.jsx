@@ -31,7 +31,7 @@ const GameDetails = () => {
                   
                     <img
                         src={coverPhoto}
-                        className="max-w-[300px] md:max-w-sm rounded-lg shadow-2xl border-4 border-base-100  md:block"
+                        className="max-w-75 md:max-w-sm rounded-lg shadow-2xl border-4 border-base-100  md:block"
                         alt={title}
                     />
                     <div>
