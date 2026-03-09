@@ -9,7 +9,7 @@ const PopularGames = () => {
     // console.log(sortedData)
     return (
         <div className='my-6'>
-            <h1 className='font-bold text-center my-6'>Top 3 popular Games</h1>
+            <h1 className='font-bold text-center my-6'>Top 3 popular Games🔥</h1>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3    justify-center gap-4 overflow-hidden'>
 
             {sortedData.map((game) => <GameCard game={game}></GameCard>)}

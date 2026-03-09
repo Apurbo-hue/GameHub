@@ -21,7 +21,7 @@ const GameDetails = () => {
         <div className="min-h-screen bg-base-200">
       
             <div
-                className="hero h-[400px] relative overflow-hidden"
+                className="hero h-[400px] relative lg:overflow-hidden"
                 style={{ backgroundImage: `url(${coverPhoto})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
             >
                 <div className="hero-overlay bg-opacity-80 bg-base-300 backdrop-blur-sm"></div>
@@ -29,7 +29,7 @@ const GameDetails = () => {
                   
                     <img
                         src={coverPhoto}
-                        className="max-w-sm rounded-lg shadow-2xl border-4 border-base-100  md:block"
+                        className="max-w-[300px] md:max-w-sm rounded-lg shadow-2xl border-4 border-base-100  md:block"
                         alt={title}
                     />
                     <div>
@@ -37,7 +37,7 @@ const GameDetails = () => {
                             <span className="badge badge-primary font-bold">{category}</span>
                             <span className="badge badge-secondary font-bold">⭐ {ratings}</span>
                         </div>
-                        <h1 className="text-5xl font-bold text-white mb-2">{title}</h1>
+                        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white mb-2">{title}</h1>
                         <p className="text-xl opacity-80 mb-6 font-semibold uppercase tracking-widest text-primary">
                             Developed by {developer}
                         </p>
@@ -49,8 +49,8 @@ const GameDetails = () => {
             </div>
 
             {/* Quick info bar */}
-            <div className="container mx-auto -mt-10 relative z-10 px-4">
-                <div className="stats shadow bg-base-100 w-full grid grid-cols-1 md:grid-cols-3">
+            <div className="md:container mx-auto lg:-mt-10 md:mt-15 mt-30 relative  sm:z-10 px-4">
+                <div className="md:stats shadow bg-base-100 w-full grid grid-cols-1 md:grid-cols-3">
                     <div className="stat place-items-center">
                         <div className="stat-title uppercase text-xs font-bold">Category</div>
                         <div className="stat-value text-primary text-2xl">{category}</div>
