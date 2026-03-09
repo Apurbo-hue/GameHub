@@ -69,7 +69,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to="/">
-                <img className="btn btn-ghost text-xl" src={"https://img.icons8.com/?size=80&id=64114&format=png"} alt="" />
+                    <img className="btn btn-ghost text-xl" src={"https://img.icons8.com/?size=48&id=xc77LZDp1FNP&format=png"} alt="" />
+                    <h1>GameHub</h1>
                 </Link>
 
             </div>

@@ -1,11 +1,14 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../Provider/AuthProvider';
-import { Link } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 
 
 const Register = () => {
-
-    const { createUser,googleSignIn} = useContext(AuthContext)
+ 
+    const { createUser, googleSignIn } = useContext(AuthContext)
+    document.title = "GameHub - Sign Up"
+    const navigate = useNavigate();
+    
 
     const handleRegister = (e) => {
         e.preventDefault();
@@ -17,7 +20,8 @@ const Register = () => {
         createUser(email, password)
             .then((credential) => {
                 const user = credential.user;
-                console.log("successful",user)
+                console.log("successful", user)
+                navigate("/")
             }
             )
             .catch((error) => {
@@ -34,6 +38,7 @@ const Register = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user)
+                navigate("/")
             })
             .catch((error) => {
             console.log(error)

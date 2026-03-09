@@ -3,13 +3,15 @@ import { useLoaderData,useParams } from 'react-router';
 
 const GameDetails = () => {
 
-     const games = useLoaderData();
-
+    
+    const games = useLoaderData();
+    
     const { id } = useParams();
     const [gameFound, setGameFound] = useState("")
-
+    
     const { title, coverPhoto, category, downloadLink, description, ratings, developer } = gameFound;
-
+    
+    document.title=`GameHub - ${title}`
 
     useEffect(() => {
         const gamesFound = games.find((game) => game.id === id)

@@ -6,6 +6,8 @@ import PopularGames from './PopularGames';
 const Home = () => {
     // const datas = useLoaderData();
 
+    document.title = "GameHub - homepage";
+
     return (
         <div>
             <h1 className='text-center'>this is the home page</h1>

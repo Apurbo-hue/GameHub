@@ -14,20 +14,20 @@ const router = createBrowserRouter([
         path: "/", element: <MainLayout></MainLayout>,
         children: [
             {
-                path: "/", loader: () => fetch('/public/games.json'),
+                path: "/", loader: () => fetch('/games.json'),
                 element: <Home></Home>,
                 hydrateFallbackElement: <span className="loading loading-ring loading-xl"></span>
             },
             { path: "register", element: <Register></Register> },
             { path: "login", element: <Login></Login> },
             { path: "allGames",
-                loader:()=>fetch('/public/games.json')
+                loader:()=>fetch('/games.json')
                 , element: <AllGames></AllGames>,
                 hydrateFallbackElement:<span className="loading loading-ring loading-xl"></span>
             },
             {
                 path: "allGames/:id",
-                loader: () => fetch('/public/games.json'),
+                loader: () => fetch('/games.json'),
                 element: <PrivateRouter><GameDetails></GameDetails></PrivateRouter>,
                 hydrateFallbackElement:<span className="loading loading-ring loading-xl"></span>
             }

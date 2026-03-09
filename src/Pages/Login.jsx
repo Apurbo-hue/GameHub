@@ -4,6 +4,8 @@ import { Link, useLocation, useNavigate } from 'react-router';
 
 const Login = () => {
 
+    document.title= "GameHub - Login to continue"
+
     const { signInUser, googleSignIn } = useContext(AuthContext);
     const location = useLocation()
     const navigate = useNavigate()

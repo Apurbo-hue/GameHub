@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import GameCard from './../Components/GameCard'
 
 const AllGames = () => {
+    document.title="GameHub - All games"
     const games = useLoaderData();
     // console.log(games)
     return (
