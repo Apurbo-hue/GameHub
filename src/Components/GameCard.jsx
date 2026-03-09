@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router';
+import { Link } from 'react-router';
 
 const GameCard = ({ game }) => {
     // console.log(game)
-    const location = useLocation();
-    // console.log(location)
+
     const { id,title, coverPhoto, category, downloadLink, description, ratings, developer } = game;
     return (
 

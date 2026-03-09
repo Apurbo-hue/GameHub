@@ -1,10 +1,10 @@
 import React from 'react';
-import errorImg from './../assets/error.avif'
 import { useNavigate } from 'react-router';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 
 const Error = () => {
-    const navigate= useNavigate()
+    const navigate = useNavigate()
+    document.title= "Error - 404"
     return (
         <div className='flex flex-col justify-center items-center min-h-screen gap-5'>
             <h1 className='text-7xl text-primary'>Error 404</h1>

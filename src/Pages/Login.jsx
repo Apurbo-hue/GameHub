@@ -22,7 +22,7 @@ const Login = () => {
             .then((credential) => {
                 const user = credential.user;
                 console.log("user login successful", user)
-                navigate(location.state)
+                navigate(location.state?location.state:"/")
             })
             .catch((error) => {
                 console.log(error)
@@ -62,7 +62,7 @@ const Login = () => {
                             <label className="label">Password</label>
                             <input type="password" name='password' className="input" placeholder="Password" />
 
-                            <div><a className="link link-hover">Forgot password?</a></div>
+                            <div><Link to="/forgotPassword" className="link link-hover">Forgot password?</Link></div>
 
                             {/* login with google */}
                             <button type='button' onClick={handleGoogleLogin} className="btn bg-white text-black border-[#e5e5e5] mt-4">

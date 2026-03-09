@@ -5,7 +5,6 @@ import { AuthContext } from '../Provider/AuthProvider';
 const Navbar = () => {
     const { user } = useContext(AuthContext)
 
-
     const { logOutUser } = useContext(AuthContext)
 
     const handleLogOut = () => {
@@ -41,7 +40,7 @@ const Navbar = () => {
         <Link to="/allGames">All Games</Link>
         {user ?
             (<>
-                <Link>  <img className='w-7 h-7 rounded-full border border-primary' src='https://img.icons8.com/?size=48&id=13042&format=png'></img></Link>
+                <Link to="/profile">  <img className='w-7 h-7 rounded-full border border-primary' src={user.photoURL}></img></Link>
                 <Link onClick={handleLogOut} className="btn bg-red-500">Logout</Link>
             </>)
             :
@@ -84,8 +83,8 @@ const Navbar = () => {
             {/* user profile picture and the login for the small screen */}
             <div className='navbar-end hidden max-lg:flex'>
                 {user ? (<>
-                    <Link>  <img className='w-7 h-7 rounded-full border border-primary mx-4' src='https://img.icons8.com/?size=48&id=13042&format=png'></img></Link>
-                    <Link onClick={handleLogOut} className="btn bg-red-500">Logout</Link></>) :
+                    <Link to="/profile">  <img className='w-7 h-7 rounded-full border border-primary mx-4' src={user.photoURL}></img></Link>
+                    <Link to="/" onClick={handleLogOut} className="btn bg-red-500">Logout</Link></>) :
                     (<>
                         <Link to="/register" className="btn btn-secondary mx-4 ">Register</Link>
                         <Link to="/login" className="btn btn-primary">Login</Link></>)

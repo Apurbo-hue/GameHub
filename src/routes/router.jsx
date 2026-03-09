@@ -4,10 +4,13 @@ import { Children } from "react";
 import Home from "../Pages/Home";
 import Register from "./../Pages/Register"
 import Login from "./../Pages/Login"
+import Profile from "./../Pages/Profile"
 import AllGames from "./../Pages/AllGames"
 import PrivateRouter from "../Provider/PrivateRouter";
 import GameDetails from "../Pages/GameDetails";
 import Error from "../Pages/Error";
+import UpdateProfile from "../Pages/UpdateProfile";
+import ForgotPassword from "../Pages/ForgotPassword";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +23,9 @@ const router = createBrowserRouter([
             },
             { path: "register", element: <Register></Register> },
             { path: "login", element: <Login></Login> },
+            { path: "profile", element:<PrivateRouter> <Profile></Profile></PrivateRouter> },
+            { path: "updateProfile", element: <PrivateRouter> <UpdateProfile></UpdateProfile></PrivateRouter> },
+            {path:"forgotPassword",element:<ForgotPassword></ForgotPassword>},
             { path: "allGames",
                 loader:()=>fetch('/games.json')
                 , element: <AllGames></AllGames>,
