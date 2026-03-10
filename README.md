@@ -83,9 +83,10 @@ GameHub is fully responsive and optimized for:
 
 Clone the repository
 git clone https://github.com/Apurbo-hue/GameHub.git
-cd GameHub
-npm install
-npm run dev
+
+-cd GameHub
+-npm install
+-npm run dev
 
 
 👨‍💻 Author
@@ -93,3 +94,4 @@ npm run dev
 Mahadi Hasan Apurbo
 Software Engineering Student [SWE]
 Daffodil International University
+
